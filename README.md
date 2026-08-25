@@ -2,10 +2,6 @@
 
 A modern, full-stack digital wallet application built with React and Express.js for secure financial transactions and account management.
 
-## 📋 Description
-
-WalletX is a comprehensive wallet management system that provides users with a secure platform to manage their finances. The application features user authentication, transaction tracking, and wallet management capabilities with a responsive React frontend and robust Express.js backend.
-
 ## 🎯 Features
 
 - **User Authentication**: Secure login and registration with JWT-based authentication
@@ -124,17 +120,9 @@ The application will be available at `http://localhost:5173` (frontend) and `htt
 - Input validation with Zod
 - Secure environment variables
 
-## 📖 API Documentation
-
-API endpoints and examples are documented in the `/postman` directory. Import the Postman collection to explore all available endpoints.
-
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues for bugs and feature requests.
-
-## 📝 License
-
-This project is open source and available under the MIT License.
 
 ## 👤 Author
 
@@ -143,4 +131,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Made with ❤️ for secure financial management**
+**Made for secure financial management**
