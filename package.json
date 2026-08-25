@@ -1,0 +1,28 @@
+{
+  "name": "walletx",
+  "version": "1.0.0",
+  "description": "A modern, full-stack digital wallet application for secure financial transactions and account management",
+  "main": "server/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm run dev\"",
+    "build": "cd client && npm run build",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": [
+    "wallet",
+    "finance",
+    "money-management",
+    "react",
+    "express",
+    "mongodb",
+    "authentication"
+  ],
+  "author": "deepakydv641",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepakydv641/WalletX.git"
+  }
+}
