@@ -1,7 +1,7 @@
 import exp from "express"
 import connectDB from "./DB/connect.js"
 import dotenv from "dotenv"
-import indexRoutes from "./routes/index.routes.js"
+import indexRouter from "./routes/index.routes.js"
 import cors from "cors"
 
 dotenv.config();
@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
     res.send("hi there!")
 })
 
-app.use("/api/v1",indexRoutes);
+app.use("/api/v1",indexRouter);
 
 // global catches: i did not want user to see the proper error becoz user can get to know about the backend logic,it takes 4 arguments
 
